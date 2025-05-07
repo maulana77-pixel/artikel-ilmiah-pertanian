@@ -1,0 +1,149 @@
+/* styles.css*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 30px;
+    position: relative;
+    background-color: #1463bd98;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    body {
+        font-size: 15px;
+    }
+    .container {
+        padding: 10px;
+        margin: 20px;
+    }
+}
+
+@media (min-width: 993px) {
+    body {
+        .container {
+            padding: 20px;
+            margin: 40px;
+        }
+    }
+}
+
+.container {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 50px;
+    height: 5px;
+}
+
+.back {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 583px;
+    height: 1562px;
+    
+
+}
+
+header {
+    background-color: #35424a;
+    margin: 0;
+    color: #ffffff;
+    display: box;
+    width: auto;
+    padding: 10px ;
+    text-align: center;   
+}
+
+.satu {
+    width: 90%;
+    height: 350px;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: -40px;
+    text-decoration: center;
+}
+
+.apa {
+    text-align: center;
+    margin-top: -40px;
+}
+.nama{
+    color:rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: transparent;
+
+}
+
+.waktu{
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    margin:0;
+}
+
+article {
+    margin: 20px auto;
+    padding: 20px ;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+     /* membatasi lebar artikel*/
+}
+
+h2 {
+    color: #000000;
+    font-size: 30px;
+}
+
+h3 {
+    color: rgba(0, 0, 0, 0.815);
+    font-size: 20px;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+    color: #080303;
+}
+
+.bawah {
+    background-color: transparent;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.poto{
+    width: 95%;
+    height: 360px;
+    aspect-ratio: 1.7 ;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.kesimpulan {
+    margin-top: 50px;
+}
+
